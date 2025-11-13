@@ -89,3 +89,22 @@ The goal is to develop a **fast, accurate, and efficient AI model** that can ass
    ```bash
    git clone https://github.com/<your-username>/Food-Freshness-Detection.git
    cd Food-Freshness-Detection
+
+   📂 Repository Structure
+📦 Food-Freshness-Detection
+├── AIproject.ipynb              # Main Jupyter Notebook
+├── dataset/                     # Image dataset (optional)
+├── models/                      # Trained model files
+├── results/                     # Graphs and evaluation outputs
+├── requirements.txt             # Dependencies list
+└── README.md                    # Project documentation
+
+🚀 Future Enhancements
+
+Deploy as a web or mobile application for real-time freshness detection
+
+Add transfer learning with MobileNet/EfficientNet for higher accuracy
+
+Integrate a freshness scoring metric instead of simple categorical output
+
+Expand dataset coverage for additional food types
