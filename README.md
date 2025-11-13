@@ -90,21 +90,36 @@ The goal is to develop a **fast, accurate, and efficient AI model** that can ass
    git clone https://github.com/<your-username>/Food-Freshness-Detection.git
    cd Food-Freshness-Detection
 
-   📂 Repository Structure
-📦 Food-Freshness-Detection
-├── AIproject.ipynb              # Main Jupyter Notebook
-├── dataset/                     # Image dataset (optional)
-├── models/                      # Trained model files
-├── results/                     # Graphs and evaluation outputs
-├── requirements.txt             # Dependencies list
-└── README.md                    # Project documentation
 
-🚀 Future Enhancements
+---
 
-Deploy as a web or mobile application for real-time freshness detection
+## 🚀 Future Enhancements
 
-Add transfer learning with MobileNet/EfficientNet for higher accuracy
+1. **Real-Time Detection**
+   - Integrate the trained CNN model with a live camera feed to perform real-time freshness detection.
+   - Enable IoT-based monitoring for food storage or supply chain systems.
 
-Integrate a freshness scoring metric instead of simple categorical output
+2. **Transfer Learning Integration**
+   - Apply pre-trained architectures like **MobileNetV2**, **EfficientNet**, or **ResNet50** to boost performance and reduce training time.
 
-Expand dataset coverage for additional food types
+3. **Freshness Scoring System**
+   - Move beyond categorical output (*Fresh*, *Stale*, *Spoiled*) and design a numerical **Freshness Index (0–100)** to represent freshness levels.
+
+4. **Model Optimization**
+   - Convert models to **TensorFlow Lite** or **ONNX** formats for lightweight deployment.
+   - Explore pruning and quantization for faster inference on edge devices.
+
+5. **Web and Mobile Deployment**
+   - Develop a **Flask** or **FastAPI** web dashboard for image uploads and freshness detection.
+   - Extend the system into a **mobile app** for consumers and retailers.
+
+6. **Dataset Expansion**
+   - Enrich dataset diversity by including additional categories (meat, dairy, seafood, bakery, etc.).
+   - Perform continuous dataset updates to improve model generalization.
+
+7. **Explainability and Visualization**
+   - Implement **Grad-CAM** or **Layer Activation Maps** to visualize decision regions and improve model interpretability.
+
+8. **Automated Alert System**
+   - Combine detection with sensor data and cloud-based dashboards to trigger automatic freshness alerts for perishable goods.
+
